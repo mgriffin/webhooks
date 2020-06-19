@@ -17,7 +17,7 @@ If you want to test webhook validation using a secret key there is another step.
 - Create a `.env` file with this content:
 
 ```
-SECRET-TOKEN="your-secret-token"
+SECRET_TOKEN="your-secret-token"
 ```
 
 Change `your-secret-token` to the proper secret token.
