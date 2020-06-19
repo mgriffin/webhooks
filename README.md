@@ -22,3 +22,20 @@ SECRET_TOKEN="your-secret-token"
 
 Change `your-secret-token` to the proper secret token.
 You can then use `http://[ngrok-hostname]/payload-with-token` as the webhook target.
+
+## ngrok
+
+You can install ngrok from the website, or through homebrew:
+
+```
+brew cask install ngrok
+```
+
+When it's installed, run it with:
+
+```
+ngrok http 4567
+```
+
+This will give you a URL that you can use for the hostname of your webhook target.
+There's also a localhost URL that you can use to check for traffic to the server.
