@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+#
+# Run all installers
+
+set -e
+
+echo "Installing Gems"
+
+bundle config set path 'vendor/bundle'
+ARCHFLAGS="-arch x86_64" bundle install || exit 1
+
