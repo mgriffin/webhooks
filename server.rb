@@ -1,5 +1,8 @@
+require 'dotenv'
 require 'sinatra'
 require 'json'
+
+Dotenv.load
 
 post '/payload' do
   push = JSON.parse(request.body.read)
