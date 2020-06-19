@@ -14,7 +14,7 @@ post '/payload-with-token' do
   payload_body = request.body.read
   verify_signature(payload_body)
   push = JSON.parse(payload_body)
-  "I got some JSON: #{push.inspect}"
+  puts "I got some JSON: #{push.inspect}"
 end
 
 def verify_signature(payload_body)
