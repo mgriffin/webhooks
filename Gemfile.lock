@@ -2,7 +2,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     base64 (0.2.0)
-    dotenv (2.8.1)
+    dotenv (3.1.4)
     logger (1.6.1)
     mustermann (3.0.3)
       ruby2_keywords (~> 0.0.1)
@@ -22,7 +22,7 @@ GEM
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
     tilt (2.4.0)
-    webrick (1.7.0)
+    webrick (1.9.0)
 
 PLATFORMS
   ruby
@@ -33,4 +33,4 @@ DEPENDENCIES
   webrick
 
 BUNDLED WITH
-   2.1.4
+   2.5.22
